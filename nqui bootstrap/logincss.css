@@ -1,0 +1,10 @@
+.text-center {
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.navbar-brand{
+    padding: 3px;
+    text-align: center;
+}
