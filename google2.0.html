@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+
+        .header {
+            background-color: #f2f2f2;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #4285f4;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .header .links {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header .links li {
+            margin-right: 20px;
+        }
+
+        .header .links li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .search-box {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .search-box input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            width: 100%;
+            outline: none;
+        }
+
+        .search-box button {
+            background-color: #4285f4;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+        .footer {
+            background-color: #f2f2f2;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="logo">Google</a>
+        <ul class="links">
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Imágenes</a></li>
+            <li><button>Acceder</button></li>
+        </ul>
+    </header>
+
+    <main class="content">
+        <div class="search-box">
+            <input type="text" placeholder="Buscar en Google">
+            <button>Buscar</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <a href="#">Sobre Google</a>
+        <a href="#">Publicidad</a>
+        <a href="#">Negocios</a>
+        <a href="#">Cómo funciona la Búsqueda</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Condiciones</a>
+        <a href="#">Preferencias</a>
+    </footer>
+</body>
+</html>

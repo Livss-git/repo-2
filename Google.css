@@ -1,0 +1,154 @@
+.accede {
+    padding-left: 500px;
+    margin: 0px 16px 10px 10px;
+    min-width: 85px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    background: #0b57d0;
+    background: var(--gm3-sys-color-primary, #0b57d0);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    color: var(--gm3-sys-color-on-primary, #fff);
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    min-height: 40px;
+    outline: none;
+    padding: 10px 12px 10px 12px ;
+    text-align: center;
+    text-decoration: none;
+    white-space: normal;
+    line-height: 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+.men3x3 {
+    margin: -5px ;  
+    padding: 0px 0px 0px 10px ;
+    border: 5px ;
+}
+
+div ul {
+    background-color: #ffffff;
+    padding: 5px 0;
+    margin-left: 1050px ;
+    margin-bottom: 2px;
+    margin-top: -10px;
+}
+
+.logo {
+    padding-left: 540px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.gma {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.imag {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.buscar {
+    text-align: center;
+    padding: 10px 100px;
+    height: 100%;
+    background-position: center;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 30px;
+    color: rgb(49, 48, 48);
+}
+
+.input-group {
+    position: relative;
+    color: rgb(49, 48, 48);
+    width: 100%;
+}
+  
+.buscar {
+    padding-left: 30px; /* Ajusta el espacio para que el icono no se superponga al texto */
+    width: 500px;
+    text-align: center;
+    padding: 14px 50px 14px 10px;
+    height: 100%;
+    background-position: center;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 30px;
+    color: rgb(49, 48, 48);
+}
+  
+.lupa {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Ajusta el valor según el espacio deseado desde el borde izquierdo */
+    transform: translateY(-50%);
+    pointer-events: none; /* Evita que el SVG interfiera con la interacción del campo de texto */
+}
+  
+.micro {
+    position: absolute;
+    top: 50%;
+    left: 500px; /* Ajusta el valor según el espacio deseado desde el borde izquierdo */
+    transform: translateY(-50%);
+    pointer-events: none; /* Evita que el SVG interfiera con la interacción del campo de texto */
+}
+
+.buscar-fot {
+    position: absolute;
+    top: 50%;
+    left: 530px; /* Ajusta el valor según el espacio deseado desde el borde izquierdo */
+    transform: translateY(-50%);
+    pointer-events: none; /* Evita que el SVG interfiera con la interacción del campo de texto */
+}
+
+.boton {
+    padding: 10px 10px;
+    border: 30px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    height: 100%;
+}
+
+
+
+
+
+
+
