@@ -54,3 +54,7 @@ body {
   a:hover {
     color: #23527c;
   }
+
+ .bibi-qr-code{
+    padding: 30px;
+}

@@ -8,3 +8,13 @@
     padding: 3px;
     text-align: center;
 }
+
+.img-container {
+    align-items: end;
+}
+
+.container{
+    align-items: center;
+    display: block;
+    align-items: center !important;
+}
