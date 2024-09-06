@@ -21,6 +21,8 @@ ventana.iconbitmap("diamond.ico")
 # texto de la ventana
 texto=Label(ventana,text="hola mundo")
 
+# para habrir el programa sin python de fondo agregar (.pyw)
+
 # color del texto de la ventana
 texto.config(fg="red",bg="#000000"
 )
@@ -28,3 +30,4 @@ texto.pack()
 
 # este metodo va al final 
 ventana.mainloop()
+
