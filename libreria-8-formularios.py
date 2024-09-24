@@ -43,4 +43,7 @@ campo_grande = Text(ventana)
 campo_grande.grid(row=3, column=1)
 campo_grande.config(width=30, height=5)
 
+# botones 
+
+Button,
 ventana.mainloop()
