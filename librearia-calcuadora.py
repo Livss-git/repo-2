@@ -11,20 +11,29 @@ ventana.title("ejercicio completo con tkinter")
 ventana.geometry("400x400")
 ventana.config(bd=35)
 
+def cfloat(numero):
+    try:
+        result = float(numero)
+    except:
+        result = 0
+        messagebox.showerror("error", "intrpduce bien los datos")
+    
+    return result
+
 def sumar ():
-    resultado.set(float (numero1.get()) + float(numero2.get()))
+    resultado.set(cfloat (numero1.get()) + cfloat(numero2.get()))
     mostrar_resultado()
     
 def restar ():
-    resultado.set(float (numero1.get()) - float(numero2.get()))
+    resultado.set(cfloat (numero1.get()) - cfloat(numero2.get()))
     mostrar_resultado()
 
 def multiplicar ():
-    resultado.set(float (numero1.get()) * float(numero2.get()))
+    resultado.set(cfloat (numero1.get()) * cfloat(numero2.get()))
     mostrar_resultado()
 
 def dividir ():
-    resultado.set(float (numero1.get()) / float(numero2.get()))
+    resultado.set(cfloat (numero1.get()) / cfloat(numero2.get()))
     mostrar_resultado()
 
 def mostrar_resultado():
