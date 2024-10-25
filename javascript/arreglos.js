@@ -72,4 +72,4 @@ console.log(algunoMayorquetres);
 let todosMenoresquecinco = numeros.every(function(numero) {
     return numero < 5;
 });
-console.log(todosMenoresquecinco); 
+console.log(todosMenoresquecinco);
